@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/survey_form_styles.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name"><p class="title-pos">Your name</p><input id="name" class="general-info" type="text" placeholder="Enter your name" required></label>
+                <label id="email-label" for="email"><p class="title-pos">Your email</p><input id="email" class="general-info" type="email" placeholder="Enter your email" required></label>
+                <label id="number-label" for="age"><p class="title-pos">Age</p><input id="number" class="general-info" type="number" min="10" max="120" placeholder="How old are you?"></label>
+                <label>
+                    <p class="title-pos">What is your role right now?</p>
+                    <select id="dropdown">
+                        <option>Select your role</option>
+                        <option>Student</option>
+                        <option>Full time job</option>
+                        <option>Full time learner</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Whould you recommend us to your friends?</legend>
+                <label class="poll" name="poll"><input class="inline" type="radio" name="recommend" value="1">Absolutely not</label>
+                <label class="poll" name="poll"><input class="inline" type="radio" name="recommend" value="2">Maybe</label>
+                <label class="poll" name="poll"><input class="inline" type="radio" name="recommend" value="3">Absolutely</label>
+            </fieldset>
+            <fieldset>
+                <legend>What did you enjoy most?</legend>
+                <label class="poll" name="poll"><input type="checkbox" name="positive-rec" value="1"> Quality of service</label>
+                <label class="poll" name="poll"><input type="checkbox" name="positive-rec" value="2"> Responsive staff</label>
+                <label class="poll" name="poll"><input type="checkbox" name="positive-rec" value="3"> Speed of service</label>
+            </fieldset>
+            <fieldset>
+                <legend>What didn't you like?</legend>
+                <label class="poll" name="poll"><input type="checkbox" name="negative-rec" value="1"> Quality of service</label>
+                <label class="poll" name="poll"><input type="checkbox" name="negative-rec" value="2"> Incompetent staff</label>
+                <label class="poll" name="poll"><input type="checkbox" name="negative-rec" value="3"> Speed of service</label>
+            </fieldset>
+            <fieldset>
+                <legend>Send your comment for us</legend>
+                <textarea name="comment" placeholder="Put your comment here..."></textarea>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit" name="submit">
+
+        </form>
+    </body>
+</html>

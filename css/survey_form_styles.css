@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    height: 150vh;
+    background-color: #09203f;
+    color: #eaeaf0;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+fieldset {
+    border: 0;
+    padding: 2rem 0;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+legend {
+    text-align: center;
+    font-size: 26px;
+    font-family: Franklin Gothic Medium;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+#title, #description {
+    margin: 1em auto;
+    text-align: center;
+    font-family: Franklin Gothic Medium, serif;
+    color: #eaeaf0;
+    text-shadow: -1px 1px rgb(100, 100, 100);
+}
+
+#description {
+    font-style: italic;
+}
+
+#survey-form {
+    background-color: #09203f;
+    opacity: 0.9;
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+#dropdown {
+    width: 95%;
+    height: 25px;
+    margin: auto 20px;
+}
+
+#survey-form input {
+    max-width: 800px;
+    width: 95%;
+    height: 25px;
+    margin: auto 20px;
+}
+
+#survey-form input[name="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    font-size: 1.1rem;
+    height: 2em;
+    background-color: #1d3049;
+    border-color: white;
+    color: rgb(248, 242, 242);
+    min-width: 300px;
+}
+
+.title-pos {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: 1px 1px grey;
+}
+
+#survey-form label[class='poll'] {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #eaeaf0;
+    text-shadow: -1px 1px rgb(100, 100, 100);
+}
+
+#survey-form input[name='recommend'] {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0 0.5em 0;
+    
+}
+
+#survey-form input[name='positive-rec'] {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0 0.5em 0;
+}
+
+#survey-form input[name='negative-rec'] {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0 0.5em 0;
+}
+
+#survey-form label[name='poll'] {
+    text-align: center;
+    
+}

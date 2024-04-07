@@ -51,15 +51,6 @@ input, textarea {
     border: 1px solid #0a0a23;
 }
 
-.inline {
-    width: unset;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0.5em;
-    margin-left: 0;
-    vertical-align: middle;
-}
-
 input[type="submit"] {
     display: block;
     width: 60%;
